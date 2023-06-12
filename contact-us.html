@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png"> <!-- 파비콘 수정해주기 -->
+	<link rel="icon" type="image/png" href="./assets/img/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>Contact Us :: 온라인 전시의 새로운 기준 360xcon</title>
+
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+
+	<!--     Fonts and icons     -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Material+Icons" />
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+	<!-- CSS Files -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/css/material-kit.css" rel="stylesheet"/>
+</head>
+
+<body class="landing-page">
+    <nav class="navbar navbar-absolute navbar-transparent">
+    	<div class="container">
+        	<!-- 모바일 디스플레이 토글 -->
+        	<div class="navbar-header">
+        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
+            		<span class="sr-only">토글 네비게이션</span> <!-- 모바일에서 보여줄 햄버거 -->
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+        		</button>
+        		<a class="navbar-brand" href="./presentation.html"><img src="./assets/img/360xcon-logo-w.png" alt="logo" /></a>
+        	</div>
+
+        	<div class="collapse navbar-collapse" id="navigation-example">
+        		<ul class="nav navbar-nav navbar-right">
+    				<li>
+						<a style="font-size: 15px;" href="landing-page.html">
+							HOME
+						</a>
+					</li>
+
+					<li>
+						<a style="font-size: 15px;" href="exhibition.html">
+							EXHIBITION
+						</a>
+						
+					</li>
+					
+					<li>
+						<a style="font-size: 15px;" href="showroom.html">
+							SHOWROOM
+						</a>
+						
+					</li>
+					
+					<li>
+						<a style="font-size: 15px;" href="artgallery.html">
+							ART GALLERY
+						</a>
+						
+					</li>
+					
+					<li>
+						<a style="font-size: 15px;" href="usecase.html">
+							USE CASE
+						</a>
+					</li>
+					
+					<li>
+						<a style="font-size: 15px;" href="pricing.html">
+							PRICING
+						</a>
+						
+					</li>
+
+					<li class="active">
+						<a style="font-size: 15px;" href="contact-us.html">
+							CONTACT US
+						</a>
+						
+					</li>
+					
+					<li class="dropdown">
+						<a style="font-size: 15px;" class="dropdown-toggle" data-toggle="dropdown">
+							<i class="material-icons">language</i>
+						</a>
+						
+						<ul class="dropdown-menu dropdown-with-icons">
+							<li>
+								<a href="#">
+									KOREAN　한국어
+								</a>
+							</li>
+							<li>
+								<a href="#englishpage">
+									ENGLISH　영어
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" class="btn btn-white btn-simple">
+							<i class="material-icons">login</i> Log in
+						</a>
+					</li>
+				  </ul>
+            	</div>
+        	</div>
+        </nav>
+	
+	
+		<div class="page-header2" data-parallax="active" style="background-image: url('https://images.unsplash.com/photo-1638184984605-af1f05249a56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80');background-position: bottom center;">
+		<div class="container">
+    		<div class="row">
+        		<div class="col-md-8 col-xs-offset-5">
+                    <h1 class="title"><br><br><br>고객지원</h1>
+<!--                    <h4></h4>-->
+                </div>
+            </div>
+        </div>
+	</div>
+	
+
+	<div class="main">
+		<div class="container">
+			<div class="row"></div>
+		</div>
+		<div class="contact-content" style="padding:40px 0px 100px 40px">
+    		<div class="container">
+            	<h2 class="title"><br>문의사항이 있으신가요?</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<p class="description">협업/제안 관련 문의사항이나 궁금하신 점이 있으시면 아래 양식을 제출해주세요.<br>
+							데이터킹 360Xcon 고객성공 지원팀에서는 언제나 문의사항에 성실히 답변해드립니다.<br><br><br>
+						</p>
+						<form role="form" id="contact-form" method="post">
+							<div class="form-group label-floating">
+								<label class="control-label">성함</label>
+								<input type="text" name="name" class="form-control">
+							</div>
+							<div class="form-group label-floating">
+								<label class="control-label">메일주소</label>
+								<input type="email" name="email" class="form-control"/>
+							</div>
+							<div class="form-group label-floating">
+								<label class="control-label">연락 가능한 전화번호</label>
+								<input type="text" name="phone" class="form-control"/>
+							</div>
+							<div class="form-group label-floating">
+								<label class="control-label">문의 내용</label>
+								<textarea name="message" class="form-control" id="message" rows="6"></textarea>
+							</div>
+							<div class="submit text-left">
+								<input type="submit" class="btn btn-white btn-raised btn-round" value="　작성 완료　" />
+							</div>
+						</form>
+					</div>
+                	<div class="col-md-4 col-md-offset-2">
+    		        	
+						<div class="info info-horizontal">
+    						<div class="icon icon-info">
+    							<i class="material-icons">phone</i>
+    						</div>
+    						<div class="description">
+    							<h4 class="info-title">02-838-3677</h4>
+    						</div>
+    		        	</div>
+    		        	
+						<div class="info info-horizontal">
+    						<div class="icon icon-success">
+    							<i class="material-icons">email</i>
+    						</div>
+    						<div class="description">
+    							<h4 class="info-title">help@dataking.co.kr</h4>
+    						</div>
+    		        	</div>
+						
+						<div class="info info-horizontal">
+    						<div class="icon icon-danger">
+    							<i class="material-icons">pin_drop</i>
+    						</div>
+    						<div class="description">
+    							<h4 class="info-title">ADRESS</h4>
+    							<p><img height="18px" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.1.4/assets/png/1f1f0-1f1f7.png" alt="" /> 서울 금천구 벚꽃로 278 SJ테크노빌 1011호<br>
+                                   <img height="18px" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.1.4/assets/png/1f1fa-1f1f8.png" alt="" /> 3003 North 1st Street Suite# 221,<br><span style="margin-left: 21px;">San Jose, CA 95134</span>
+    							</p>
+    						</div>
+    		        	</div>
+                        
+				    </div>
+               </div>
+            </div>
+		</div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="container">
+            <nav class="pull-left">
+				<ul>
+					<li>
+						<a href="http://www.creative-tim.com">
+							Creative Tim
+						</a>
+					</li>
+					<li>
+						<a href="http://presentation.creative-tim.com">
+						   About Us
+						</a>
+					</li>
+					<li>
+						<a href="http://blog.creative-tim.com">
+						   Blog
+						</a>
+					</li>
+					<li>
+						<a href="http://www.creative-tim.com/license">
+							Licenses
+						</a>
+					</li>
+				</ul>
+            </nav>
+            <div class="copyright pull-right">
+                &copy; <script>document.write(new Date().getFullYear())</script>, made with <i class="fa fa-heart heart"></i> by Creative Tim
+            </div>
+        </div>
+    </footer>
+</body>
+    <!--   Core JS Files   -->
+    <script src="./assets/js/jquery.min.js" type="text/javascript"></script>
+    <script src="./assets/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="./assets/js/material.min.js"></script>
+
+    <!--	Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script src="./assets/js/nouislider.min.js" type="text/javascript"></script>
+
+    <!--	Plugin for the Datepicker, full documentation here: http://www.eyecon.ro/bootstrap-datepicker/ -->
+    <script src="./assets/js/bootstrap-datepicker.js" type="text/javascript"></script>
+
+    <!--	Plugin for Select Form control, full documentation here: https://github.com/FezVrasta/dropdown.js -->
+    <script src="./assets/js/jquery.dropdown.js" type="text/javascript"></script>
+
+    <!--	Plugin for Tags, full documentation here: http://xoxco.com/projects/code/tagsinput/  -->
+    <script src="./assets/js/jquery.tagsinput.js"></script>
+
+    <!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+    <script src="./assets/js/jasny-bootstrap.min.js"></script>
+
+    <!-- Plugin For Google Maps -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+    <!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
+    <script src="./assets/js/material-kit.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+		$().ready(function(){
+			// the body of this function is in assets/material-kit.js
+			materialKitDemo.initContactUsMap();
+		});
+	</script>
+
+</html>
