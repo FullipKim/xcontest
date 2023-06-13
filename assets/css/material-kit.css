@@ -1462,9 +1462,9 @@ output {
 
 .form-control {
   height: 36px;
-  padding: 7px 0;
-  font-size: 14px;
-  line-height: 1.42857;
+  padding: 5px 0;
+  font-size: 15px;
+  line-height: 1.2;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
@@ -1622,15 +1622,18 @@ output {
 }
 .label.label-success {
   background-color: #29CB97;
+  font-size: 14px;
 }
 .label.label-info {
   background-color: #4072ee;
+  font-size: 14px;
 }
 .label.label-warning {
   background-color: #EF473A;
 }
 .label.label-danger {
   background-color: #F65860;
+  font-size: 14px;
 }
 .label.label-rose {
   background-color: #e91e63;
@@ -1701,7 +1704,7 @@ output {
   background-image: linear-gradient(#EF473A, #DC262A), linear-gradient(#D2D2D2, #D2D2D2);
   background-size: 100% 2px, 100% 1px;
   box-shadow: none;
-  transition-duration: 0.3s;
+  transition-duration: 0.4s;
 }
 .form-group.is-focused .form-control .material-input:after {
   background-color: #9c27b0;
@@ -3110,10 +3113,10 @@ h2.title {
   display: none;
 }
 .carousel.carousel-full-nagivation .left {
-  cursor: url("../img/arrow-left.png"), url("../img/arrow-left.cur"), default !important;
+  cursor: url("./img/arrow-left.png"), url("./img/arrow-left.cur"), default !important;
 }
 .carousel.carousel-full-nagivation .right {
-  cursor: url("../img/arrow-right.png"), url("../img/arrow-right.cur"), default !important;
+  cursor: url("./img/arrow-right.png"), url("./img/arrow-right.cur"), default !important;
 }
 .carousel .carousel-control.left {
   left: -25px;
@@ -3222,7 +3225,7 @@ h2.title {
   padding: 15px 30px;
 }
 .card .content .card-title {
-	font-size: 16px;	
+	font-size: 18px;	
 }
  
 .card .card-body {
@@ -3474,11 +3477,18 @@ h2.title {
   padding-left: 0;
 }
 
-.card-profile,
-.card-testimonial {
-  margin-top: 30px;
-  text-align: center;
+.card-exhibition {
+  margin: 30px 20px;
+  text-align: left;
 }
+
+.mt-10{
+	margin-top: 20px;
+}
+.mt-50{
+	margin-top: 50px;
+}
+
 .card-profile .btn-just-icon.btn-raised,
 .card-testimonial .btn-just-icon.btn-raised {
   margin-left: 6px;
@@ -3981,7 +3991,7 @@ hr.on-light {
 }
 
 .table-shopping > thead > tr > th {
-  font-size: 0.9em;
+  font-size: 1.3em;
   text-transform: uppercase;
 }
 .table-shopping > tbody > tr > td {
@@ -4015,8 +4025,8 @@ hr.on-light {
   margin-right: 3px;
 }
 .table-shopping .img-container {
-  width: 60px;
-  max-height: 60px;
+  width: 50px;
+  max-height: 50px;
   overflow: hidden;
   display: block;
 }
@@ -4707,10 +4717,11 @@ select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
 }
 
 /* 유튜브 배경용 박스 div */
-.jb-box { width: 100%; height: 100vh; overflow: hidden;margin: 0px auto; position: relative; background-color: #1c1c1c;}
-.videobg { height: 100vh; width: 100%; z-index: 1}
-.jb-text { position: absolute; top: 35%; width: 100%; z-index: 3}
-.jb-text p { margin-top: -24px; text-align: center;color: #ffffff; z-index: 3}
+.jb-box { width: 100%; height: 100vh; overflow: hidden;margin: auto; position: relative; background-color: #1c1c1c;}
+.jb-box video {width:100vw; min-height: 95vh}
+.videobg { height: 90vh; width: 100%; z-index: 1}
+.jb-text { position: absolute; top: 35%; left: 25%; width: 100%; z-index: 999}
+.jb-text p { margin-top: -24px; text-align: center;color: #ffffff; z-index: 999}
 
 .page-header .carousel .carousel-indicators {
   bottom: 60px;
@@ -6328,7 +6339,7 @@ footer .pull-center {
   font-size: 1.2em;
 }
 .profile-page .connections {
-  padding: 40px 0px;
+  padding: 40px 20px;
 }
 .profile-page .connections .card-profile {
   text-align: left;
@@ -6371,6 +6382,9 @@ footer .pull-center {
   color: #555555;
 }
 
+.login-page {
+	background: linear-gradient(to bottom right, #000, #1e1e1e);;
+}
 .login-page .page-header {
   min-height: 100vh;
   height: auto;
@@ -6465,6 +6479,20 @@ footer .pull-center {
 }
 .product-page .title-row {
   margin-top: 20px;
+}
+
+.media-list li {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	margin-bottom: 10px;
+	
+}
+.features-3 .info-horizontal {
+	border-bottom: solid 1px #333;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 30px;
 }
 .product-page .tab-content {
   margin: 30px 0px;
