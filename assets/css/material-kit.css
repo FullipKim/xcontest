@@ -11,8 +11,8 @@
 /* ANIMATION */
 /* SHADOWS */
 /* Shadows (from mdl http://www.getmdl.io/) */
+* { font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
 
-@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
 html{
 	scroll-behavior:smooth;
 }
@@ -46,14 +46,14 @@ blockquote p {
 }
 
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
-  font-family: 'Pretendard Variable';  font-weight: 300;
+  font-family: 'SpoqaHanSansNeo-Regular';  font-weight: 300;
   line-height: 1.5em;
 }
 body{
 	min-height: 90vh;
 }
 .serif-font {
-  font-family: 'Pretendard Variable';}
+  font-family: 'SpoqaHanSansNeo-Regular';}
 
 a {
   color: #9c27b0;
@@ -492,7 +492,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .navbar .navbar-nav > li > a.btn.btn-warning.dropdown-toggle, .open >
 .navbar .navbar-nav > li > a.btn.btn-warning.dropdown-toggle:focus, .open >
 .navbar .navbar-nav > li > a.btn.btn-warning.dropdown-toggle:hover {
-  background-color: rgba(239,71,58,1.00);
+  background-color: #DC262A;
   color: #FFFFFF;
 }
 .btn.btn-warning:focus, .btn.btn-warning:active, .btn.btn-warning:hover,
@@ -2932,7 +2932,7 @@ h6, .h6 {
 .footer-big h4,
 .media .media-heading {
   font-weight: 700;
-  font-family: 'Pretendard Variable';
+  font-family: 'SpoqaHanSansNeo-Regular';
 }
 .title,
 .title a,
@@ -3257,7 +3257,7 @@ h2.title {
 }
 .card .header-primary,
 .card .content-primary {
-  background: linear-gradient(60deg, #ab47bc, #7b1fa2);
+  background: linear-gradient(90deg, #212121, #1e1e1e);
 }
 .card .header-info,
 .card .content-info {
@@ -3551,13 +3551,15 @@ h2.title {
 }
 
 .card-pricing {
-  text-align: left;
+	min-height: 80vh;
 }
 .card-pricing .card-title {
   margin-top: 30px;
+	text-align: center;
 }
 .card-pricing .content {
-  padding: 15px !important;
+  padding: 10px !important;
+	text-align: left;
 }
 .card-pricing .icon {
   padding: 10px 0 0px;
@@ -3571,13 +3573,35 @@ h2.title {
   line-height: 130px;
   height: 130px;
 }
-.card-pricing h1 small {
-  font-size: 18px;
+.card-pricing h2 {
+	text-align: center;
+	margin: 0 25px 20px 25px;
 }
-.card-pricing h1 small:first-child {
+.card-pricing span {
+	text-align: center; font-weight: 300;
+	font-size: 14px; position: relative;
+	top: -20px;
+}
+.card-btn{
+	color: rgba(255,255,255,0.85);
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+	align-items: center;
+	position: relative;
+	top:10px;
+}
+.card-btn:hover {
+	color:#ffffff;
+	font-size: 1.5em;
+}
+.card-pricing h2 small {
+  font-size: 21px;
+}
+.card-pricing h2 small:first-child {
   position: relative;
   top: 10px;
-  font-size: 16px;
+  font-size: 18px;
 }
 .card-pricing ul {
   list-style: none;
@@ -3604,6 +3628,7 @@ h2.title {
 .card-pricing.card-background ul li,
 .card-pricing [class*="content-"] ul li {
   color: #FFFFFF;
+  margin: 0 -25px;
   border-color: rgba(255, 255, 255, 0.3);
 }
 .card-pricing.card-background ul li b,
@@ -3866,7 +3891,7 @@ hr.on-light {
   width: 100%;
 }
 .media .media-heading small {
-  font-family: 'Pretendard Variable';}
+  font-family: 'SpoqaHanSansNeo-Regular';}
 .media .media-body {
   padding-right: 10px;
 }
@@ -5771,15 +5796,15 @@ footer .pull-center {
 
 .productinfo-title{
 	text-align: left;
-	font-size: 18px;
-	font-weight: 500;
+	font-size: 24px;
+	font-weight: 600;
 }
 
 .productinfo-caption{
 	text-align: left;
 	color: #f9f9f9;
 	font-size: 14px;
-	font-weight: 300;
+	font-weight: 200;
 	min-height: 100px;
 	overflow:hidden;
 }
@@ -6748,7 +6773,7 @@ footer .pull-center {
 }
 
 .product-title{
-	font-family: 'Pretendard variable';
+	font-family: 'SpoqaHanSansNeo-Regular';
 	font-weight: 600;
 	font-size:  44px;
 }
