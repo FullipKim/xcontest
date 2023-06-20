@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
 	<meta charset="utf-8" />
-	<link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png"> <!-- 파비콘 수정해주기 -->
+	<link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
 	<link rel="icon" type="image/png" href="./assets/img/favicon.png">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
@@ -18,15 +18,16 @@
 	<!-- CSS파일 -->
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="./assets/css/material-kit.css" rel="stylesheet"/>
+
 </head>
 
 <body class="landing-page">
     <div class="header-3">
-	  <nav class="navbar navbar-absolute navbar-primary">
+	    <nav class="navbar navbar-transparent navbar-absolute">
     	<div class="container">
         	<!-- 모바일 디스플레이 토글 -->
         	<div class="navbar-header">
-        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
+        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#xcon-navigation">
             		<span class="sr-only">토글 네비게이션</span> <!-- 모바일에서 보여줄 햄버거 -->
 		            <span class="icon-bar"></span>
 		            <span class="icon-bar"></span>
@@ -36,7 +37,7 @@
         	</div>
 
 			<!-- 메인 네비게이션 -->
-        	<div class="collapse navbar-collapse" id="navigation-example">
+        	<div class="collapse navbar-collapse" id="xcon-navigation">
         		<ul class="nav navbar-nav navbar-right">
     				<li class="active">
 						<a style="font-size: 15px;" href="./index.html">
@@ -112,109 +113,127 @@
             	</div>
         	</div>
         </nav>
-		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="position: relative; top: -40px;">
+
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 			<div class="carousel slide" data-ride="carousel">
 
 				<!-- Indicators -->
 				<ol class="carousel-indicators">
-					<li style="background-color: #DC262A" data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					<li style="background-color: #DC262A" data-target="#carousel-example-generic" data-slide-to="1"></li>
-					<li style="background-color: #DC262A" data-target="#carousel-example-generic" data-slide-to="2"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
 				</ol>
 
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner">
 					<div class="item active">
-						<div class="page-header header-filter">
-							<div class="jb-box"><video autoplay muted loop><source src="https://xconimages.blob.core.windows.net/xcon-homepage/xcon_main_visual_01.mp4" /></video></div>
-							<div class="jb-text">
-									<div class="col-md-6 text-center">
-										<h1 class="title">메타버스 전시 솔루션</h1>
-										<h3 class="title">Web 3.0 Metaverse Exhibition</h3>
-										<br />
+						<div class="page-header header-filter" style="background-image: url('assets/img/01.gif');">
 
+							<div class="container">
+								<div class="row">
+									<div class="col-md-8 col-md-offset-2 text-center">
+										<h1 class="title">Metaverse EXHIBITION</h1>
+										<h4>전시회, 컨벤션, 페어 등 MICE 형태에 최적화 된 솔루션 입니다.</h4>
+										<br />
 										<div class="buttons">
-											<a href="./exhibition.html" class="btn btn-lg btn-warning" >
-												자세히 보기
-											</a>　
-											<a href="./usecase.html#exhibition" class="btn btn-lg btn-simple" style="color: #fff; font-weight: 500">
-												전시 사례 보기
+											<a href="#pablo" class="btn btn-white btn-simple btn-lg">
+												<i class="fa fa-desktop"></i> 온라인전시 보기
+											</a>
+											<a href="#pablo" class="btn btn-info btn-lg" style="margin-left: 0.5em;">
+												<i class="fa fa-star"></i> HIGHEND SAMPLE
 											</a>
 										</div>
+									</div>
 								</div>
 							</div>
 				        </div>
 
 					</div>
 					<div class="item">
-						<div class="page-header header-filter">
-							<div class="jb-box"><video autoplay muted loop><source src="https://xconimages.blob.core.windows.net/xcon-homepage/xcon_main_visual_02.mp4" /></video></div>
-							<div class="jb-text">
-									<div class="col-md-6 text-center">
-										<h1 class="title">메타버스 쇼룸 솔루션</h1>
-										<h3 class="title">Web 3.0 Metaverse Showroom</h3>
-										<br />
+						<div class="page-header header-filter" style="background-image: url('assets/img/02.gif');">
 
+							<div class="container">
+								<div class="row">
+									<div class="col-md-8 col-md-offset-2 text-center">
+										<h1 class="title">Metaverse SHOWROOM</h1>
+										<h4>제품, 서비스 소개 등 기업용 쇼룸 형태에 최적화 된 솔루션 입니다.</h4>
+										<br />
 										<div class="buttons">
-											<a href="./showroom.html" class="btn btn-lg btn-warning">
-												자세히 보기
+											<a href="#pablo" class="btn btn-white btn-simple btn-lg">
+												<i class="fa fa-desktop"></i> 샘플전시 보기
 											</a>
-											<a href="./usecase.html#showroom" class="btn btn-lg btn-simple" style="color: #fff; font-weight: 500">
-												전시 사례 보기
+											<a href="#pablo" class="btn btn-success btn-lg" style="margin-left: 0.5em;">
+												<i class="fa fa-book"></i> USE CASE
 											</a>
 										</div>
+									</div>
 								</div>
 							</div>
+
 				        </div>
+
 					</div>
 
 					<div class="item">
-						<div class="page-header header-filter">
-							<div class="jb-box"><video autoplay muted loop><source src="https://xconimages.blob.core.windows.net/xcon-homepage/xcon_main_visual_03.mp4" /></video></div>
-							<div class="jb-text">
-									<div class="col-md-6 text-center">
-										<h1 class="title">메타버스 아트 갤러리 솔루션</h1>
-										<h3 class="title">Web 3.0 Metaverse Art Gallery</h3>
-										<br />
+						<div class="page-header header-filter" style="background-image: url('assets/img/03.gif');">
 
+							<div class="container">
+								<div class="row">
+									<div class="col-md-8 col-md-offset-2 text-center">
+										<h1 class="title">Metaverse ART GALLERY</h1>
+										<h4>아트, 영상, NFT 등 예술 전시에 최적화된 솔루션 입니다.</h4>
+										<br />
 										<div class="buttons">
-											<a href="./artgallery.html" class="btn btn-lg btn-warning">
-												자세히 보기
+											<a href="#pablo" class="btn btn-white btn-simple btn-lg">
+												<i class="fa fa-desktop"></i> 샘플전시 보기
 											</a>
-											<a href="./usecase.html#artgallery" class="btn btn-lg btn-simple" style="color: #fff; font-weight: 500">
-												전시 사례 보기
+											<a href="#pablo" class="btn btn-danger btn-lg" style="margin-left: 0.5em;">
+												<i class="fa fa-book"></i> USE CASE
 											</a>
 										</div>
+									</div>
 								</div>
 							</div>
+
 				        </div>
+
 					</div>
+
 				</div>
-			</div>
-		</div>
 
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+					<i class="material-icons">keyboard_arrow_left</i>
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+					<i class="material-icons">keyboard_arrow_right</i>
+				</a>
+			</div>
+		</div>		
     </div>
 
     <!--     *********    END HEADER 3      *********      -->
 
+		
+
 
 	<div class="main">
-		<div class="container-fluid" style="background-color: #1c1c1c; padding-bottom: 80px; position: relative;top:-60px;">
-	    	<div class="section text-center">
+		<div class="container-fluid" style="background-color: #1c1c1c; padding: 80px 0; position: relative;top:0px;">
+	    	<div class="section container text-center">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 mb-3">
-                        <h2 class="title" style="line-height: 1">ESG<br><span class="productinfo-title">(Environment Social Governance)<br>데이터킹은 지속가능한 사회적가치를 만듭니다.</span></h2>
+                        <h2 class="title" style="line-height: 1">ESG<br><span style="font-size: 2.3rem;font-weight: 400;">(Environment Social Governance)<br>데이터킹은 지속가능한 사회적가치를 만듭니다.</span></h2>
                     </div>
                 </div>
 
 				<div class="features">
-					<div class="row col-md-10 col-xs-offset-1">
-						<div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+					<div class="row text-left">
+						<div class="col-md-4" style="margin-bottom: 20px;">
 							<div class="info card-raised">
 								<div class="icon icon-info">
-									<i class="material-icons zoomin">cloud</i>
+									<i class="material-icons zoomin" style="padding-left: 0.7em">cloud</i>
 								</div>
-								<h4 class="info-title" style="font-size: 22px;">클라우드 퍼스트</h4>
+								<h4 class="info-title" style="padding-left: 1.7em; font-size: 22px; font-weight: 600">클라우드 퍼스트</h4>
 								<p style="font-size: 16px; padding: 0 35px; line-height: 1.5;"><br>데이터킹의 메타버스 솔루션은<br>
 									클라우드 기반으로 모두 제공합니다.<br>
 									언제 어디서든 이용할 수 있는<br>
@@ -222,12 +241,12 @@
 							</div>
 						</div>
 
-						<div class="col-xs-12 col-md-4">
+						<div class="col-md-4">
 							<div class="info card-raised">
 								<div class="icon icon-success">
-									<i class="material-icons zoomin">compost</i>
+									<i class="material-icons zoomin" style="padding-left: 0.7em">compost</i>
 								</div>
-								<h4 class="info-title" style="font-size: 22px;">친환경 에너지절감 퍼스트</h4>
+								<h4 class="info-title" style="padding-left: 1.7em;font-size: 22px;">친환경 에너지절감 퍼스트</h4>
 								<p style="font-size: 16px; padding: 0 35px; line-height: 1.5;">메타버스 전시는 행사장을 임차하거나<br>
 									홍보물 제작이 필요 없으며, 주최자는<br>
 									한 번의 행사 개최보다 더 많은 사람을<br>
@@ -239,12 +258,12 @@
 						</div>
 					
 
-						<div class="col-xs-12 col-md-4">
+						<div class="col-md-4">
 							<div class="info card-raised">
 								<div class="icon icon-danger">
-									<i class="material-icons zoomin">timeline</i>
+									<i class="material-icons zoomin" style="padding-left: 0.7em">timeline</i>
 								</div>
-								<h4 class="info-title" style="font-size: 22px;">성과측정 퍼스트</h4>
+								<h4 class="info-title" style="padding-left: 1.7em;font-size: 22px;">성과측정 퍼스트</h4>
 								<p style="font-size: 16px; padding: 0 35px; line-height: 1.5;"><br>
 온라인 행사의 최대 강점인 비용 대비<br>
 효과를 데이터로 측정 가능합니다.<br>
@@ -257,13 +276,13 @@
 				
             </div>
 		</div>
-		<div class="container-fluid" style="background-color: 101010; margin-top: -30px;padding: 0 280px 0px 280px;margin-bottom: -30px;">
+		<div class="container" style="background-color: 101010; margin-top: -30px;margin-bottom: -30px;">
         	<div class="section text-center" id="solutions">
-				<div class="team">
-                <h2 class="title col-md-12">타입별 솔루션 상세보기</h2>
+				<div class="container">
+                <h2 class="title">타입별 솔루션 상세보기</h2>
 					<div class="row">
 						<a href="./exhibition.html" target="_self">
-						<div class="col-xs-12 col-sm-4 col-md-4 zoomin">
+						<div class="col-md-4 zoomin" style="padding: 2em;">
 							<div class="card card-profile card-plain">
 								<div class="card-image">
 									<img class="img" src="./assets/img/landingbtn1.png" alt="" />
@@ -274,7 +293,7 @@
 
 						
 						<a href="./showroom.html" target="_self">
-						<div class="col-xs-12 col-sm-4 col-md-4 zoomin">
+						<div class="col-md-4 zoomin" style="padding: 2em;">
 							<div class="card card-profile card-plain">
 								<div class="card-image">
 									<img class="img" src="./assets/img/landingbtn2.png" alt="" />
@@ -284,7 +303,7 @@
 						</a>
 
 						<a href="./artgallery.html" target="_self">
-						<div class="col-xs-12 col-sm-4 col-md-4 zoomin">
+						<div class="col-md-4 zoomin" style="padding: 2em;">
 							<div class="card card-profile card-plain">
 								<div class="card-image">
 									<img class="img" src="./assets/img/landingbtn3.png" alt="" />
