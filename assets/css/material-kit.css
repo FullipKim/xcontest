@@ -3558,7 +3558,37 @@ h2.title {
 }
 
 .card-blog {
-  margin-top: 30px;
+  background-color: white;
+  box-shadow: 5px 0 5px 0 rgba(0, 0, 0, 0.05), 0 4px 5px 0px rgba(0, 0, 0, 0.05), 0 8px 10px -5px rgba(0, 0, 0, 0.05);
+  margin-top: 2.3em;
+  padding: 3em 1.2em 3em 1.2em;
+}
+.card-blog h4 {
+	font-weight: 600;
+}
+
+.card-blog h4 span {
+	font-weight: 600;
+	font-size: 1.6em;
+	color: #1e1e1e;
+}
+.card-head {
+	border-top: solid 1px rgba(33,33,33,0.50);
+	border-bottom: solid 1px rgba(33,33,33,0.50);
+	padding: 1.1em 0em;
+	color: #1e1e1e;
+	font-weight: 600;
+/*	border: solid 1px rgba(33,33,33,0.50);*/
+}
+.card-blog img {
+	width: 50px;
+	margin-bottom: -1.0em;
+}
+.card-blog p {
+	font-weight: 500;
+}
+.card-blog a {
+	font-weight: 600;
 }
 .card-blog .row .category {
   margin-bottom: 0;
@@ -3732,8 +3762,10 @@ h2.title {
 .card-product .card-description {
   text-align: center;
 }
-
 .modal-content {
+  width: 59em;
+  margin-top: 20em;
+  margin-left: -8em;
   box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
   border-radius: 6px;
   border: none;
@@ -6322,7 +6354,9 @@ footer .pull-center {
   margin-top: 80px;
 }
 .box div {
-	max-width: 16.85em;
+	margin: 1.5em auto;
+	max-width: 32.7%;
+	min-height: 18.8em;
 }
 .box .header-title {
 	font-size: 16px;
@@ -6347,10 +6381,7 @@ footer .pull-center {
 	margin-left: 10px;
 }
 .box {
-	background-image: url('./assets/img/city.jpg');
-	background-position: center;
-	background-size: cover;
-	min-height: 40vh;
+	min-height: 60vh;
 	border: solid 1px #eee;
 	border-radius: 15px;
 	padding: 15px;
@@ -6365,7 +6396,7 @@ footer .pull-center {
 
 .box2 {
 	background-color: #f9f9f9;
-	min-height: 40vh;
+	min-height: 60vh;
 	border: solid 1px #eee;
 	border-radius: 15px;
 	padding: 15px;
@@ -6401,8 +6432,7 @@ footer .pull-center {
 .card-inner {
 	background-color: #fff;
 	border-radius: 10px;
-	padding: 15px 10px;
-	margin: 10px -15px -10px -15px
+	width: 3.8em;
 }
 
 .card-inner img{
@@ -6898,4 +6928,10 @@ footer .pull-center {
 }
 .topbtn:hover,.topbtn:after,.topbtn:active,.topbtn:before{
 	color: #FFFFFF;
+}
+.text-dark h2, .text-dark text, .text-dark p, .text-dark label, .text-dark h3,.text-dark h4,.text-dark h5 {
+	color:#1e1e1e !important;
+}
+.head-bg {
+	background-image: url('assets/img/bg2.jpg');margin-bottom: 1.8em;
 }
