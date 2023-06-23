@@ -20,7 +20,7 @@
     <link href="./assets/css/material-kit.css" rel="stylesheet"/>
 </head>
 
-<body class="signup-page">
+<body class="signup-page" style="overflow: hidden; max-height: 100vh; max-width: 100vw">
 	    <nav class="navbar navbar-absolute navbar-transparent">
     	<div class="container">
         	<!-- 모바일 디스플레이 토글 -->
@@ -37,7 +37,7 @@
 <!-- 메인 네비게이션 -->
         	<div class="collapse navbar-collapse" id="navigation-example">
         		<ul class="nav navbar-nav navbar-right">
-    				<li>
+    				<li class="active">
 						<a style="font-size: 15px;" href="./index.html">
 							HOME
 						</a>
@@ -112,12 +112,12 @@
         	</div>
         </nav>
 	
-		<div class="container-fluid jb-box header-filter" filter-color="dark" >
-		  <video autoplay muted loop><source src="https://xconimages.blob.core.windows.net/xcon-homepage/xcon_main_visual_logo.mp4" /></video>
+		<div class="container-fluid jb-box header-filter" style="max-height: 100vh; position: relative; top:0px;" filter-color="dark" >
+		  <video autoplay muted loop style="height: 120vh; padding: 0; overflow: hidden"><source src="https://xconimages.blob.core.windows.net/xcon-homepage/xcon_main_visual_logo.mp4" /></video>
     	</div>
 		<div class="container">
 			<div class="row">
-    			<div class="col-md-6 col-md-offset-6"  style="margin-top: -56.5em; z-index: 999">
+    			<div class="col-md-6 col-md-offset-6"  style="margin-top: -58.5em; z-index: 999">
 
 					<div class="card card-signup text-dark">
                         <h2 class="card-title text-center">회원가입</h2>
@@ -156,7 +156,7 @@
 										</div>
 									</div>
 									<div class="footer text-right">
-										<a href="./login-page.html" class="btn btn-warning btn-round">xcon 시작하기</a>
+										<a href="#pablo" class="btn btn-warning btn-round">xcon 시작하기</a>
 									</div>
 									
                                 	<div class="social text-center">
@@ -179,7 +179,7 @@
                 </div>
             </div>
 		</div>
-		<footer class="footer" style="margin-top: -100px;">
+		<footer class="footer" style="margin-top: -10em;">
 	        <div class="container">
 	            <div class="copyright pull-center col-lg-12 col-sm-6" style="color:#fdfdfd; z-index: 99999;">
 					<strong style="font-size: 16px">Powered by </strong><img width="9%" style="position: relative;top:-5px; left: 5px;" src="./assets/img/datakinglogo.png" alt="로고" />
