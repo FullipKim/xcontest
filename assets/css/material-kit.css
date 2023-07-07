@@ -3769,6 +3769,10 @@ h2.title {
 .card-product .card-description {
   text-align: center;
 }
+
+.modal {z-index: 10050;color: black;}
+.modal text {color: black}
+.modal img {width: 60px;}
 .modal-content {
   width: 59em;
   margin-top: 20em;
@@ -4026,10 +4030,12 @@ hr.on-light {
   color: #e91e63;
 }
 
+.table { overflow-x: scroll; min-width: 600px;}
+
 .table > thead > tr > th {
   border-bottom-width: 1px;
-  font-size: 1.25em;
-  font-weight: 300;
+  font-size: 1.0em;
+  font-weight: 500;
 }
 .table .radio,
 .table .checkbox {
@@ -4050,6 +4056,7 @@ hr.on-light {
 .table > tfoot > tr > td {
   padding: 12px 8px;
   vertical-align: middle;
+  overflow-x:visible;
 }
 .table .th-description {
   max-width: 150px;
